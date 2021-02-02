@@ -1,0 +1,47 @@
+body {
+
+    margin:0;
+}
+
+#myVideo {
+    position:fixed;
+    rigth:0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    font-family: 'Yusei Magic', sans-serif;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color:whitesmoke;
+    width: 100%;
+    padding: 20px;
+}
+
+.content-text{
+   width: 90%;
+}
+
+@media screen and (min-width: 601px) {
+    p {
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 601px) {
+    p {
+      font-size: 17px;
+    }
+  }
+
+
+a {
+    color:whitesmoke
+}
+
+.font-color{
+    color:yellow;
+}
